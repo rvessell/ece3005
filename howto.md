@@ -56,41 +56,101 @@ Once you are done writing your document, you will want to export that document, 
 **Headers**
 Mardown offers a very easy syntax for creating headers ranging from size 1-6.
 
-Typeing `# Heading 1` produces:
+Typing `# Heading 1` produces:
 
 # Heading 1
 
-Typeing `# Heading 2` produces:
+Typing `# Heading 2` produces:
 
 ## Heading 2
 
-Typeing `# Heading 3` produces:
+Typing `# Heading 3` produces:
 
 ### Heading 3
 
-Typeing `# Heading 4` produces:
+Typing `# Heading 4` produces:
 
 #### Heading 4
 
-Typeing `# Heading 5` produces:
+Typing `# Heading 5` produces:
 
 ##### Heading 5
 
-Typeing `# Heading 6` produces:
+Typing `# Heading 6` produces:
 
 ###### Heading 6
 
-Headings can also be used to create a table of context with clickable links to help users navigate your documents. For Example:
+Headings can also be used to create a table of context with clickable links to help users navigate your documents. For Example `[Heading 1](#heading-1)` will produce this link [Heading 1](#heading-1) which will take the user back to the header "Heading 1".
 
-[Heading 1](#heading-1)
-
-Stuff about Headers
 #### Bold and Italics
-Stuff about bold and italics
+
+As with many documents, you may need to italicize or bold portions of your document.
+
+Italicizing text can be done by placing `*` on each side of the text you want italicized.
+- For example `*Italicizing this is easy!*` generates *Italicizing this is just as easy!*.
+
+Bolding text can be done by placing `**` on each side of the text you want bolded.
+- For Example `**Bolding this is just as easy!**` generates **Bolding this is easy**.
+
+Bolding and Italicizing text can be done by placing `***` on each side of the text you want bolded and italicized.
+- For example `***Bold and Italicized for the win!***` generates ***Bold and Italicized for the win!***.
+
+#### Line Breaks and Indentions
+
+You will inevitably find that Markdown does not always add a line break or indention where you are expecting them.
+
+To create a line break at any point in your text, add `<br`.
+- For example, `break here <br> please` generates <br>
+break here <br> please
+
 ### Code
-Stuff about adding code
+
+In engineering, it is not uncommon to include code blocks in your documents.
+
+To include code portions inline with your text, place \` on each side of your code.
+- For example \`mkdir new_dir\` generates `mkdir new_dir`.
+
+To include code blocks, usually done with larger sections of code that include line breaks, start each line of the with four spaces 
+- For example<br>
+
+for(int i = 0; i < num; ++i){
+   printf("i: %d");<br>
+}<br>
+generates
+
+    for(int i = 0; i < num; ++i){
+        printf("i: %d");<br>
+    }
+
 ### Tables
+
+Tables are often one of the most effective ways engineers can display data. A simple table can be created using a series of `|` symbols.
+- For Example <br>
+`| Name 	| Age 	| Major 	|`<br>
+`|-	|-	|-	|`<br>
+`| George B 	| 93 	| Ceramic Engineering 	|`<br>
+`| Ryan V 	| 32 	| Computer Engineering 	|`<br>
+
+generates
+
+| Name 	| Age 	| Major 	|
+|-	|-	|-	|
+| George B 	| 93 	| Ceramic Engineering 	|
+| Ryan V 	| 32 	| Computer Engineering 	|
+
+Admittedly, this is not very useful for large tables of data. There are plenty of webistes that you can visit that will allow you to upload csv files and will generate the necessary Markdown syntax to display your table. I would recommend the site 'https://www.tablesgenerator.com/markdown_tables'.
+
 ### Images
+
+Images in lab reports are almost always a necessity.
+
+For images hosted on a website, you can use the image address directly.
+- For example, `![Image](https://blog.planview.com/wp-content/uploads/2017/12/cloud-750x400-750x400.jpg "random image")` generates <br>
+
+![Image](https://blog.planview.com/wp-content/uploads/2017/12/cloud-750x400-750x400.jpg "random image")
+
+For images that are located on your local computer, you can add teh image by using it's relative path.
+- For example, `![Image](cloud-750x400-750x400.jpg "random image")` generates <br>
 ### Equations
  h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 ### Citations
