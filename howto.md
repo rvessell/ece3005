@@ -138,10 +138,7 @@ Admittedly, this is not very useful for large tables of data. There are plenty o
 Images in lab reports are almost always a necessity.
 
 For images hosted on a website, you can use the image address directly.
-- For example,<br>
-> `![Image](https://blog.planview.com/wp-content/uploads/2017/12/cloud-750x400-750x400.jpg "random image")`<br>
-
-generates <br>
+- For example,`![Image](https://blog.planview.com/wp-content/uploads/2017/12/cloud-750x400-750x400.jpg "random image")` generates <br>
 
 ![Image](https://blog.planview.com/wp-content/uploads/2017/12/cloud-750x400-750x400.jpg "random image")
 
