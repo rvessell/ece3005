@@ -150,7 +150,10 @@ For images hosted on a website, you can use the image address directly.
 ![Image](https://blog.planview.com/wp-content/uploads/2017/12/cloud-750x400-750x400.jpg "random image")
 
 For images that are located on your local computer, you can add teh image by using it's relative path.
-- For example, `![Image](cloud-750x400-750x400.jpg "random image")` generates <br>
+- For example, `![Image2](/imgs/cover.jpg "cover image")` generates <br>
+
+![Image2](/imgs/cover.jpg "cover image")
+
 ### Equations
  h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 ### Citations
