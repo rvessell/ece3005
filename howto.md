@@ -31,7 +31,26 @@ I have created this document in hopes that it will help future students navigate
 3.6 [Citations](#citations-1)<br>
 
 ## Setting Up VSCode
-This is where i'll put my stuff for installing and configuration VSCode and extensions
+//install here
+
+After you have installed VSCode, I recommend installing the following extensions.
+
+"Mardown PDF"
+
+Once installed, there are two key features you will want to know how to access.
+
+Preview
+Since you will want to see what your out looks like before you export to PDF, you will want to open the preview window.
+
+- First press **CTL+SHIFT+P** and type "**Markdown: Open Preview to the Side**" and hit enter. This will open a window for you to the side that will show all of your formatted text as you type it.
+
+Export to PDF
+Once you are done writing your document, you will want to export that document, this can be done using
+
+- First press **CTL+SHIFT+P** and type "**Markdown PDF: Export (pdf)**" and hit enter. Once the export is complete, you will have a PDF version of your document in the same directory as your Markdown file.
+
+
+
 ## Markdown
 ### Common Text Formats
 #### Headers
