@@ -82,7 +82,7 @@ Typeing `# Heading 6` produces:
 
 Headings can also be used to create a table of context with clickable links to help users navigate your documents. For Example:
 
-[Heading 1](#heading1
+[Heading 1](#heading-1)
 
 Stuff about Headers
 #### Bold and Italics
