@@ -35,7 +35,7 @@ I have created this document in hopes that it will help future students navigate
 
 After you have installed VSCode, I recommend installing the following extensions.
 
-"Mardown PDF"
+<p align="center">"Mardown PDF"</p>
 
 Once installed, there are two key features you will want to know how to access.
 
@@ -49,11 +49,41 @@ Once you are done writing your document, you will want to export that document, 
 
 - First press **CTL+SHIFT+P** and type "**Markdown PDF: Export (pdf)**" and hit enter. Once the export is complete, you will have a PDF version of your document in the same directory as your Markdown file.
 
-
+//Latex Workshop here
 
 ## Markdown
 ### Common Text Formats
-#### Headers
+**Headers**
+Mardown offers a very easy syntax for creating headers ranging from size 1-6.
+
+Typeing `# Heading 1` produces:
+
+# Heading 1
+
+Typeing `# Heading 2` produces:
+
+## Heading 2
+
+Typeing `# Heading 3` produces:
+
+### Heading 3
+
+Typeing `# Heading 4` produces:
+
+#### Heading 4
+
+Typeing `# Heading 5` produces:
+
+##### Heading 5
+
+Typeing `# Heading 6` produces:
+
+###### Heading 6
+
+Headings can also be used to create a table of context with clickable links to help users navigate your documents. For Example:
+
+[Heading 1](#heading1
+
 Stuff about Headers
 #### Bold and Italics
 Stuff about bold and italics
