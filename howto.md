@@ -87,13 +87,13 @@ Headings can also be used to create a table of context with clickable links to h
 As with many documents, you may need to italicize or bold portions of your document.
 
 Italicizing text can be done by placing `*` on each side of the text you want italicized.
-- For example `*Italicizing this is easy!*` generates *Italicizing this is just as easy!*.
+- For example, `*Italicizing this is easy!*` generates *Italicizing this is just as easy!*.
 
 Bolding text can be done by placing `**` on each side of the text you want bolded.
-- For Example `**Bolding this is just as easy!**` generates **Bolding this is easy**.
+- For example, `**Bolding this is just as easy!**` generates **Bolding this is easy**.
 
 Bolding and Italicizing text can be done by placing `***` on each side of the text you want bolded and italicized.
-- For example `***Bold and Italicized for the win!***` generates ***Bold and Italicized for the win!***.
+- For example, `***Bold and Italicized for the win!***` generates ***Bold and Italicized for the win!***.
 
 #### Line Breaks and Indentions
 
@@ -108,7 +108,7 @@ break here <br> please
 In engineering, it is not uncommon to include code blocks in your documents.
 
 To include code portions inline with your text, place \` on each side of your code.
-- For example \`mkdir new_dir\` generates `mkdir new_dir`.
+- For example, \`mkdir new_dir\` generates `mkdir new_dir`.
 
 To include code blocks, usually done with larger sections of code that include line breaks, start each line of the with four spaces 
 - For example<br>
@@ -125,7 +125,7 @@ generates
 ### Tables
 
 Tables are often one of the most effective ways engineers can display data. A simple table can be created using a series of `|` symbols.
-- For Example <br>
+- For example <br>
 `| Name 	| Age 	| Major 	|`<br>
 `|-	|-	|-	|`<br>
 `| George B 	| 93 	| Ceramic Engineering 	|`<br>
@@ -155,7 +155,14 @@ For images that are located on your local computer, you can add teh image by usi
 ![Image2](/imgs/cover.jpg "cover image")
 
 ### Equations
- h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
+Unfortunatley, Markdown does not have a direct method for adding equations or mathmatics symbols. Markdown does, however, offer direct HTML support which does allow for adding math symbols. Though Markdown equations do not look as nicely formatted as LaTex equations, they do work in a pinch.
+- For example, `h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x` generates <br>
+
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
+A comprehensive list of HTML supported symbols can be found here, https://www.toptal.com/designers/htmlarrows/math/. You will want to use the "HTML ENTITY" code when using Markdown.
+
 ### Citations
 
 ## LaTex
