@@ -77,37 +77,39 @@ Once you are done writing your document, you will want to export that document, 
 
 ## Common Text Formats
 #### Headers
+---------------------
 Mardown offers a very easy syntax for creating headers ranging from size 1-6.
 
 Typing `# Heading 1` produces:
 
 # Heading 1
 
-Typing `# Heading 2` produces:
+Typing `## Heading 2` produces:
 
 ## Heading 2
 
-Typing `# Heading 3` produces:
+Typing `### Heading 3` produces:
 
 ### Heading 3
 
-Typing `# Heading 4` produces:
+Typing `#### Heading 4` produces:
 
 #### Heading 4
 
-Typing `# Heading 5` produces:
+Typing `##### Heading 5` produces:
 
 ##### Heading 5
 
-Typing `# Heading 6` produces:
+Typing `###### Heading 6` produces:
 
 ###### Heading 6
 
 #### Permalinks
-
+---------------------
 Headings can also be used to create a table of context with clickable links to help users navigate your documents. For Example `[Heading 1](#heading-1)` will produce this link [Heading 1](#heading-1) which will take the user back to the header "Heading 1".
 
 #### Bold and Italics
+---------------------
 
 As with many documents, you may need to italicize or bold portions of your document.
 
@@ -121,14 +123,16 @@ Bolding and Italicizing text can be done by placing `***` on each side of the te
 - For example, `***Bold and Italicized for the win!***` generates ***Bold and Italicized for the win!***.
 
 #### Line Breaks and Indentions
+---------------------
 
-You will inevitably find that Markdown does not always add a line break or indention where you are expecting them.
+You will inevitably find that Markdown does not always add a line break or indention where you are expecting them. <br>
 
 To create a line break at any point in your text, add `<br`.
 - For example, `break here <br> please` generates <br>
 break here <br> please
 
 #### Alignment
+---------------------
 
 Text alignment is not something that Markdown can do, luckily, it is something that HTML can do, which is natively supported in Markdown.
 
@@ -139,6 +143,7 @@ To center a block of text, you can add `<p align="center"></p>` to the text that
 <p align="center">Center this please.</p>
 
 ### Code
+---------------------
 
 In engineering, it is not uncommon to include code blocks in your documents.
 
@@ -158,6 +163,7 @@ generates
     }
 
 ### Tables
+---------------------
 
 Tables are often one of the most effective ways engineers can display data. A simple table can be created using a series of `|` symbols.
 - For example <br>
@@ -176,6 +182,7 @@ generates
 Admittedly, this is not very useful for large tables of data. There are plenty of webistes that you can visit that will allow you to upload csv files and will generate the necessary Markdown syntax to display your table. I would recommend the site 'https://www.tablesgenerator.com/markdown_tables'.
 
 ### Images
+---------------------
 
 Images in lab reports are almost always a necessity.
 
@@ -190,15 +197,27 @@ For images that are located on your local computer, you can add teh image by usi
 ![Image2](/imgs/cover.jpg "cover image")
 
 ### Equations
+---------------------
 
 Unfortunatley, Markdown does not have a direct method for adding equations or mathmatics symbols. Markdown does, however, offer direct HTML support which does allow for adding math symbols. Though Markdown equations do not look as nicely formatted as LaTex equations, they do work in a pinch.
 - For example, `h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x` generates <br>
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
+Below are some other common symbols.
+
+| code | symbol |
+|- |- |
+|`&times;` | &times; |
+|`&ne;` | &ne; |
+| `&plusmn;` | &plusmn; |
+| `&fnof;` | &fnof; |
+| `&sum;` | &sum;
+
 A comprehensive list of HTML supported symbols can be found here, https://www.toptal.com/designers/htmlarrows/math/. You will want to use the "HTML ENTITY" code when using Markdown.
 
 ## Links
 
 VSCode Installation Files - https://code.visualstudio.com/download <br>
-Table Generator - https://www.tablesgenerator.com/markdown_tables
+Table Generator - https://www.tablesgenerator.com/markdown_tables <br>
+HTML Math Symbols - https://www.toptal.com/designers/htmlarrows/math/ <br>
