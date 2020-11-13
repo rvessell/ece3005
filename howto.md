@@ -51,7 +51,7 @@ After you have installed VSCode, the following extension is highly reocmmended. 
 
 Markdown PDF<br>
 
-- First, click on the extenions icon in VSCode. <br>
+- First, click on the extensions icon in VSCode. <br>
 
 ![1](https://github.com/rvessell/ece3005/blob/main/imgs/ext/1.png "Extensions") <br>
 
@@ -62,7 +62,7 @@ Markdown PDF<br>
 Once installed, there are two key features you will want to know how to access. <br>
 
 Preview <br>
-Since you will want to see what your out looks like before you export to PDF, you will want to open the preview window. <br>
+Since you will want to see what your output looks like before you export to PDF, you will want to open the preview window. <br>
 
 - First press **CTL+SHIFT+P** and type "**Markdown: Open Preview to the Side**" and hit enter. This will open a window for you to the side that will show all of your formatted text as you type it. <br>
 
@@ -78,7 +78,7 @@ Once you are done writing your document, you will want to export that document, 
 ## Common Text Formats
 #### Headers
 ---------------------
-Mardown offers a very easy syntax for creating headers ranging from size 1-6.
+Markdown offers a very easy syntax for creating headers ranging from size 1-6.
 
 Typing `# Heading 1` produces:
 
@@ -179,7 +179,7 @@ generates
 | George B 	| 93 	| Ceramic Engineering 	|
 | Ryan V 	| 32 	| Computer Engineering 	|
 
-Admittedly, this is not very useful for large tables of data. There are plenty of webistes that you can visit that will allow you to upload csv files and will generate the necessary Markdown syntax to display your table. I would recommend the site 'https://www.tablesgenerator.com/markdown_tables'.
+Admittedly, this is not very useful for large tables of data. There are plenty of websites that you can visit that will allow you to upload csv files and will generate the necessary Markdown syntax to display your table. I would recommend the site 'https://www.tablesgenerator.com/markdown_tables'.
 
 ### Images
 ---------------------
@@ -191,7 +191,7 @@ For images hosted on a website, you can use the image address directly.
 
 ![Image](https://blog.planview.com/wp-content/uploads/2017/12/cloud-750x400-750x400.jpg "random image")
 
-For images that are located on your local computer, you can add teh image by using it's relative path.
+For images that are located on your local computer, you can add the image by using it's relative path.
 - For example, `![Image2](/imgs/cover.jpg "cover image")` generates <br>
 
 ![Image2](/imgs/cover.jpg "cover image")
@@ -199,7 +199,7 @@ For images that are located on your local computer, you can add teh image by usi
 ### Equations
 ---------------------
 
-Unfortunatley, Markdown does not have a direct method for adding equations or mathmatics symbols. Markdown does, however, offer direct HTML support which does allow for adding math symbols. Though Markdown equations do not look as nicely formatted as LaTex equations, they do work in a pinch.
+Unfortunately, Markdown does not have a direct method for adding equations or mathematics symbols. Markdown does, however, offer direct HTML support which does allow for adding math symbols.
 - For example, `h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x` generates <br>
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
