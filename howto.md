@@ -13,7 +13,7 @@ I have created this document in hopes that it will help future students navigate
 1. [Setting up VSCode](#setting-up-vscode)</li>
 2. [Common Text Formats](#common-text-formats)<br>
 2.1 [Bold and Italics](#bold-and-italics)<br>
-2.2 [Line Breaks and Indentions](#line-breaks-and-indentions
+2.2 [Line Breaks and Indentions](#line-breaks-and-indentions)
 3. [Code](#code)<br>
 4. [Tables](#tables)<br>
 5. [Images](#images)<br>
