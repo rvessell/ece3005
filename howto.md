@@ -11,8 +11,9 @@ I have created this document in hopes that it will help future students navigate
 
 # Table of Contents
 1. [Setting up VSCode](#setting-up-vscode)</li>
-2. [Headers](#headers)<br>
-3. [Bold and Italics](#bold-and-italics)<br>
+2. [Common Text Formats](#common-text-formats)<br>
+2.1 [Bold and Italics](#bold-and-italics)<br>
+2.2 [Line Breaks and Indentions](#line-breaks-and-indentions
 4. [Code](#code)<br>
 5. [Tables](#tables)<br>
 6. [Images](#images)<br>
@@ -39,7 +40,7 @@ Once you are done writing your document, you will want to export that document, 
 
 //Latex Workshop here
 
-## Markdown
+## Common Text Formats
 #### Headers
 Mardown offers a very easy syntax for creating headers ranging from size 1-6.
 
