@@ -12,11 +12,11 @@ I have created this document in hopes that it will help future students navigate
 # Table of Contents
 1. [Setting up VSCode](#setting-up-vscode)</li>
 2. [Common Text Formats](#common-text-formats)<br>
-2.1 [Headers](#headers)
-2.2 [Permalinks](#permalinks)
+2.1 [Headers](#headers)<br>
+2.2 [Permalinks](#permalinks)<br>
 2.3 [Bold and Italics](#bold-and-italics)<br>
-2.4 [Line Breaks and Indentions](#line-breaks-and-indentions)
-2.5 [Alignment](#alignment)
+2.4 [Line Breaks and Indentions](#line-breaks-and-indentions)<br>
+2.5 [Alignment](#alignment)<br>
 4. [Code](#code)<br>
 5. [Tables](#tables)<br>
 6. [Images](#images)<br>
@@ -47,35 +47,33 @@ First, you'll need to download the VSCode installer. This can be found here http
 
 ### Extension
 
-After you have installed VSCode, the following extension is highly reocmmended.
+After you have installed VSCode, the following extension is highly reocmmended. <br>
 
-Markdown PDF
+Markdown PDF<br>
 
-- First, click on the extenions icon in VSCode.
+- First, click on the extenions icon in VSCode. <br>
 
-![1](https://github.com/rvessell/ece3005/blob/main/imgs/ext/1.png Extensions)
+![1](https://github.com/rvessell/ece3005/blob/main/imgs/ext/1.png "Extensions") <br>
 
-- Next, search for Markdown PDF in the extension search bar and click the green install button.
+- Next, search for Markdown PDF in the extension search bar and click the green install button. <br>
 
-![2](https://github.com/rvessell/ece3005/blob/main/imgs/ext/2.png Search)
+![2](https://github.com/rvessell/ece3005/blob/main/imgs/ext/2.png "Search") <br>
 
-Once installed, there are two key features you will want to know how to access.
+Once installed, there are two key features you will want to know how to access. <br>
 
-Preview
-Since you will want to see what your out looks like before you export to PDF, you will want to open the preview window.
+Preview <br>
+Since you will want to see what your out looks like before you export to PDF, you will want to open the preview window. <br>
 
-- First press **CTL+SHIFT+P** and type "**Markdown: Open Preview to the Side**" and hit enter. This will open a window for you to the side that will show all of your formatted text as you type it.
+- First press **CTL+SHIFT+P** and type "**Markdown: Open Preview to the Side**" and hit enter. This will open a window for you to the side that will show all of your formatted text as you type it. <br>
 
-![Markdown Preview](https://github.com/rvessell/ece3005/blob/main/imgs/ext/preview.png Markdown Preview)
+![Markdown Preview](https://github.com/rvessell/ece3005/blob/main/imgs/ext/preview.png "Markdown Preview")<br>
 
-Export to PDF
-Once you are done writing your document, you will want to export that document, this can be done using
+Export to PDF <br>
+Once you are done writing your document, you will want to export that document, this can be done using Markdown Export to PDF. <br>
 
-![Markdown Export to PDF](https://github.com/rvessell/ece3005/blob/main/imgs/ext/export.png Markdown Export to PDF)
+![Markdown Export to PDF](https://github.com/rvessell/ece3005/blob/main/imgs/ext/export.png "Markdown Export to PDF") <br>
 
-- First press **CTL+SHIFT+P** and type "**Markdown PDF: Export (pdf)**" and hit enter. Once the export is complete, you will have a PDF version of your document in the same directory as your Markdown file.
-
-//Latex Workshop here
+- First press **CTL+SHIFT+P** and type "**Markdown PDF: Export (pdf)**" and hit enter. Once the export is complete, you will have a PDF version of your document in the same directory as your Markdown file. <br>
 
 ## Common Text Formats
 #### Headers
