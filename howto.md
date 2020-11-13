@@ -11,16 +11,12 @@ I have created this document in hopes that it will help future students navigate
 
 # Table of Contents
 1. [Setting up VSCode](#setting-up-vscode)</li>
-2. [Markdown](#markdown)<br>
-2.1 [Headers](#headers)<br>
-2.2 [Bold and Italics](#bold-and-italics)<br>
-2.3 [Code](#code)<br>
-2.4 [Tables](#tables)<br>
-2.5 [Images](#images)<br>
-2.6 [Equations](#equations)<br>
-3. [LaTex](#LaTex)<br>
-3.1 [Equations](#equations-1)<br>
-3.2 [Citations](#citations-1)<br>
+2. [Headers](#headers)<br>
+3. [Bold and Italics](#bold-and-italics)<br>
+4. [Code](#code)<br>
+5. [Tables](#tables)<br>
+6. [Images](#images)<br>
+7. [Equations](#equations)<br>
 
 ## Setting Up VSCode
 //install here
@@ -153,13 +149,3 @@ Unfortunatley, Markdown does not have a direct method for adding equations or ma
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 A comprehensive list of HTML supported symbols can be found here, https://www.toptal.com/designers/htmlarrows/math/. You will want to use the "HTML ENTITY" code when using Markdown.
-
-## LaTex
-### Equations
-
-In engineering courses, it is not uncommon to display equations in your lab reports. There are two ways to declare an equation.
-
-The first way is simply wrapping your equation in `\[ \]`.
-- For example, \[E=mc^2\]
-
-### Citations
