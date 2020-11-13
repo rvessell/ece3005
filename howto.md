@@ -14,10 +14,11 @@ I have created this document in hopes that it will help future students navigate
 2. [Common Text Formats](#common-text-formats)<br>
 2.1 [Bold and Italics](#bold-and-italics)<br>
 2.2 [Line Breaks and Indentions](#line-breaks-and-indentions
-4. [Code](#code)<br>
-5. [Tables](#tables)<br>
-6. [Images](#images)<br>
-7. [Equations](#equations)<br>
+3. [Code](#code)<br>
+4. [Tables](#tables)<br>
+5. [Images](#images)<br>
+6. [Equations](#equations)<br>
+7. [Links](#links)<br>
 
 ## Setting Up VSCode
 //install here
@@ -150,3 +151,8 @@ Unfortunatley, Markdown does not have a direct method for adding equations or ma
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 A comprehensive list of HTML supported symbols can be found here, https://www.toptal.com/designers/htmlarrows/math/. You will want to use the "HTML ENTITY" code when using Markdown.
+
+## Links
+
+VSCode Installation Files - https://code.visualstudio.com/download
+Table Generator - https://www.tablesgenerator.com/markdown_tables
