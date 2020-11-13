@@ -12,20 +12,52 @@ I have created this document in hopes that it will help future students navigate
 # Table of Contents
 1. [Setting up VSCode](#setting-up-vscode)</li>
 2. [Common Text Formats](#common-text-formats)<br>
-2.1 [Bold and Italics](#bold-and-italics)<br>
-2.2 [Line Breaks and Indentions](#line-breaks-and-indentions)
-3. [Code](#code)<br>
-4. [Tables](#tables)<br>
-5. [Images](#images)<br>
-6. [Equations](#equations)<br>
-7. [Links](#links)<br>
+2.1 [Headers](#headers)
+2.2 [Permalinks](#permalinks)
+2.3 [Bold and Italics](#bold-and-italics)<br>
+2.4 [Line Breaks and Indentions](#line-breaks-and-indentions)
+2.5 [Alignment](#alignment)
+4. [Code](#code)<br>
+5. [Tables](#tables)<br>
+6. [Images](#images)<br>
+7. [Equations](#equations)<br>
+8. [Links](#links)<br>
 
 ## Setting Up VSCode
-//install here
 
-After you have installed VSCode, I recommend installing the following extensions.
+### Installation
 
-<p align="center">"Mardown PDF"</p>
+First, you'll need to download the VSCode installer. This can be found here https://code.visualstudio.com/download.
+
+- Once downloaded, run the installer. Read the installation agreement and then accept it.
+
+![inst1](https://github.com/rvessell/ece3005/blob/main/imgs/inst/1.png Agreement)
+
+- Choose your installation location, in this example, we will use the default.
+
+![inst2](https://github.com/rvessell/ece3005/blob/main/imgs/inst/2.png Location)
+
+- Choose the shortcut name, in this example, we will use the default.
+
+![inst3](https://github.com/rvessell/ece3005/blob/main/imgs/inst/3.png Shortcut)
+
+- Review any settings that you have changed and click install.
+
+![inst4](https://github.com/rvessell/ece3005/blob/main/imgs/inst/4.png Install)
+
+### Extension
+
+After you have installed VSCode, the following extension is highly reocmmended.
+
+Markdown PDF
+
+- First, click on the extenions icon in VSCode.
+
+![1](https://github.com/rvessell/ece3005/blob/main/imgs/ext/1.png Extensions)
+
+- Next, search for Markdown PDF in the extension search bar and click the green install button.
+
+![2](https://github.com/rvessell/ece3005/blob/main/imgs/ext/2.png Search)
 
 Once installed, there are two key features you will want to know how to access.
 
@@ -34,8 +66,12 @@ Since you will want to see what your out looks like before you export to PDF, yo
 
 - First press **CTL+SHIFT+P** and type "**Markdown: Open Preview to the Side**" and hit enter. This will open a window for you to the side that will show all of your formatted text as you type it.
 
+![Markdown Preview](https://github.com/rvessell/ece3005/blob/main/imgs/ext/preview.png Markdown Preview)
+
 Export to PDF
 Once you are done writing your document, you will want to export that document, this can be done using
+
+![Markdown Export to PDF](https://github.com/rvessell/ece3005/blob/main/imgs/ext/export.png Markdown Export to PDF)
 
 - First press **CTL+SHIFT+P** and type "**Markdown PDF: Export (pdf)**" and hit enter. Once the export is complete, you will have a PDF version of your document in the same directory as your Markdown file.
 
@@ -69,6 +105,8 @@ Typing `# Heading 6` produces:
 
 ###### Heading 6
 
+#### Permalinks
+
 Headings can also be used to create a table of context with clickable links to help users navigate your documents. For Example `[Heading 1](#heading-1)` will produce this link [Heading 1](#heading-1) which will take the user back to the header "Heading 1".
 
 #### Bold and Italics
@@ -91,6 +129,16 @@ You will inevitably find that Markdown does not always add a line break or inden
 To create a line break at any point in your text, add `<br`.
 - For example, `break here <br> please` generates <br>
 break here <br> please
+
+#### Alignment
+
+Text alignment is not something that Markdown can do, luckily, it is something that HTML can do, which is natively supported in Markdown.
+
+To center a block of text, you can add `<p align="center"></p>` to the text that you would like to center.
+
+- For example, `<p align="center">Center this please.</p>` generates
+
+<p align="center">Center this please.</p>
 
 ### Code
 
@@ -154,5 +202,5 @@ A comprehensive list of HTML supported symbols can be found here, https://www.to
 
 ## Links
 
-VSCode Installation Files - https://code.visualstudio.com/download
+VSCode Installation Files - https://code.visualstudio.com/download <br>
 Table Generator - https://www.tablesgenerator.com/markdown_tables
