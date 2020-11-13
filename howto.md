@@ -27,23 +27,23 @@ I have created this document in hopes that it will help future students navigate
 
 ### Installation
 
-First, you'll need to download the VSCode installer. This can be found here https://code.visualstudio.com/download.
+First, you'll need to download the VSCode installer. This can be found here https://code.visualstudio.com/download. <br>
 
-- Once downloaded, run the installer. Read the installation agreement and then accept it.
+- Once downloaded, run the installer. Read the installation agreement and then accept it. <br>
 
-![inst1](https://github.com/rvessell/ece3005/blob/main/imgs/inst/1.png Agreement)
+![1](https://github.com/rvessell/ece3005/blob/main/imgs/inst/1.PNG "Agreement") <br>
 
-- Choose your installation location, in this example, we will use the default.
+- Choose your installation location, in this example, we will use the default. <br>
 
-![inst2](https://github.com/rvessell/ece3005/blob/main/imgs/inst/2.png Location)
+![2](https://github.com/rvessell/ece3005/blob/main/imgs/inst/2.PNG "Location") <br>
 
-- Choose the shortcut name, in this example, we will use the default.
+- Choose the shortcut name, in this example, we will use the default. <br>
 
-![inst3](https://github.com/rvessell/ece3005/blob/main/imgs/inst/3.png Shortcut)
+![3](https://github.com/rvessell/ece3005/blob/main/imgs/inst/3.PNG "Shortcut") <br>
 
-- Review any settings that you have changed and click install.
+- Review any settings that you have changed and click install.<br>
 
-![inst4](https://github.com/rvessell/ece3005/blob/main/imgs/inst/4.png Install)
+![4](https://github.com/rvessell/ece3005/blob/main/imgs/inst/4.PNG "Install") <br>
 
 ### Extension
 
