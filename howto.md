@@ -31,19 +31,19 @@ First, you'll need to download the VSCode installer. This can be found here http
 
 - Once downloaded, run the installer. Read the installation agreement and then accept it. <br>
 
-![1](https://github.com/rvessell/ece3005/blob/main/imgs/inst/1.PNG "Agreement") <br>
+![1](https://github.com/rvessell/ece3005/blob/main/imgs/inst/1.PNG?raw=true "Agreement") <br>
 
 - Choose your installation location, in this example, we will use the default. <br>
 
-![2](https://github.com/rvessell/ece3005/blob/main/imgs/inst/2.PNG "Location") <br>
+![2](https://github.com/rvessell/ece3005/blob/main/imgs/inst/2.PNG?raw=true "Location") <br>
 
 - Choose the shortcut name, in this example, we will use the default. <br>
 
-![3](https://github.com/rvessell/ece3005/blob/main/imgs/inst/3.PNG "Shortcut") <br>
+![3](https://github.com/rvessell/ece3005/blob/main/imgs/inst/3.PNG?raw=true "Shortcut") <br>
 
 - Review any settings that you have changed and click install.<br>
 
-![4](https://github.com/rvessell/ece3005/blob/main/imgs/inst/4.PNG "Install") <br>
+![4](https://github.com/rvessell/ece3005/blob/main/imgs/inst/4.PNG?raw=true "Install") <br>
 
 ### Extension
 
@@ -53,11 +53,11 @@ Markdown PDF<br>
 
 - First, click on the extensions icon in VSCode. <br>
 
-![1](https://github.com/rvessell/ece3005/blob/main/imgs/ext/1.png "Extensions") <br>
+![1](https://github.com/rvessell/ece3005/blob/main/imgs/ext/1.png?raw=true "Extensions") <br>
 
 - Next, search for Markdown PDF in the extension search bar and click the green install button. <br>
 
-![2](https://github.com/rvessell/ece3005/blob/main/imgs/ext/2.png "Search") <br>
+![2](https://github.com/rvessell/ece3005/blob/main/imgs/ext/2.png?raw=true "Search") <br>
 
 Once installed, there are two key features you will want to know how to access. <br>
 
@@ -66,12 +66,12 @@ Since you will want to see what your output looks like before you export to PDF,
 
 - First press **CTL+SHIFT+P** and type "**Markdown: Open Preview to the Side**" and hit enter. This will open a window for you to the side that will show all of your formatted text as you type it. <br>
 
-![Markdown Preview](https://github.com/rvessell/ece3005/blob/main/imgs/ext/preview.png "Markdown Preview")<br>
+![Markdown Preview](https://github.com/rvessell/ece3005/blob/main/imgs/ext/preview.png?raw=true "Markdown Preview")<br>
 
 Export to PDF <br>
 Once you are done writing your document, you will want to export that document, this can be done using Markdown Export to PDF. <br>
 
-![Markdown Export to PDF](https://github.com/rvessell/ece3005/blob/main/imgs/ext/export.png "Markdown Export to PDF") <br>
+![Markdown Export to PDF](https://github.com/rvessell/ece3005/blob/main/imgs/ext/export.png?raw=true "Markdown Export to PDF") <br>
 
 - First press **CTL+SHIFT+P** and type "**Markdown PDF: Export (pdf)**" and hit enter. Once the export is complete, you will have a PDF version of your document in the same directory as your Markdown file. <br>
 
@@ -194,7 +194,7 @@ For images hosted on a website, you can use the image address directly.
 For images that are located on your local computer, you can add the image by using it's relative path.
 - For example, `![Image2](/imgs/cover.jpg "cover image")` generates <br>
 
-![Image2](/imgs/cover.jpg "cover image")
+![Image2](./imgs/cover.jpg "cover image")
 
 ### Equations
 ---------------------
