@@ -1,26 +1,33 @@
 # Getting Started with VSCode, Markdown, and LaTex
+Author: Ryan Vessell, 3rd Year Computer Engineering Student
+Date: 11/16/2020
 
-### Objective
-The objective of this document is to introduce VSCode, and Markdown for Georgia Tech ECE students. By the end of this document, you will be able to install and configure VSCode, format a document using Markdown commands. This document is not meant to be a comprehensive list of all available Markdown commands, instead, it is meant to be a quick start guide for the commands that I have found most useful.
-
-### Background
-When I started ECE3057, I was asked to complete all of my lab documents using Markdown. Having never used Markdown, I was tasked with learning both the content for the class and how to setup my environment and format my documents using Markdown.
-
-I have created this document in hopes that it will help future students navigate Markdown and VSCode without having to search all over to find examples. This document will also as a cheat sheet for when students forget the commands they need.
+# Preface
+//something here
 
 # Table of Contents
-1. [Setting up VSCode](#setting-up-vscode)</li>
-2. [Common Text Formats](#common-text-formats)<br>
-2.1 [Headers](#headers)<br>
-2.2 [Permalinks](#permalinks)<br>
-2.3 [Bold and Italics](#bold-and-italics)<br>
-2.4 [Line Breaks and Indentions](#line-breaks-and-indentions)<br>
-2.5 [Alignment](#alignment)<br>
-4. [Code](#code)<br>
-5. [Tables](#tables)<br>
-6. [Images](#images)<br>
-7. [Equations](#equations)<br>
-8. [Links](#links)<br>
+1. [Objective](#objective)
+2. [Background](#background)
+3. [Setting up VSCode](#setting-up-vscode)
+4. [Common Text Formats](#common-text-formats)<br>
+4.1 [Headers](#headers)<br>
+4.2 [Permalinks](#permalinks)<br>
+4.3 [Bold and Italics](#bold-and-italics)<br>
+4.4 [Line Breaks and Indentions](#line-breaks-and-indentions)<br>
+4.5 [Alignment](#alignment)<br>
+5. [Code](#code)<br>
+6. [Tables](#tables)<br>
+7. [Images](#images)<br>
+8. [Equations](#equations)<br>
+9. [Links](#links)<br>
+
+### Objective
+<p> The objective of this document is to introduce VSCode, and Markdown for Georgia Tech ECE students. By the end of this document, you will be able to install and configure VSCode, format a document using Markdown commands. This document is not meant to be a comprehensive list of all available Markdown commands, instead, it is meant to be a quick start guide for the commands that I have found most useful.
+
+### Background
+<p> When I started ECE3057, I was asked to complete all of my lab documents using Markdown. Having never used Markdown, I was tasked with learning both the content for the class and how to setup my environment and format my documents using Markdown.
+
+<p> I have created this document in hopes that it will help future students navigate Markdown and VSCode without having to search all over to find examples. This document will also as a cheat sheet for when students forget the commands they need.
 
 ## Setting Up VSCode
 
@@ -61,7 +68,7 @@ Markdown PDF<br>
 Once installed, there are two key features you will want to know how to access. <br>
 
 Preview <br>
-Since you will want to see what your output looks like before you export to PDF, you will want to open the preview window. <br>
+<p> Since you will want to see what your output looks like before you export to PDF, you will want to open the preview window. <br>
 
 - First press **CTL+SHIFT+P** and type "**Markdown: Open Preview to the Side**" and hit enter. This will open a window for you to the side that will show all of your formatted text as you type it. <br>
 
@@ -75,9 +82,12 @@ Once you are done writing your document, you will want to export that document, 
 - First press **CTL+SHIFT+P** and type "**Markdown PDF: Export (pdf)**" and hit enter. Once the export is complete, you will have a PDF version of your document in the same directory as your Markdown file. <br>
 
 ## Common Text Formats
+
+<p> In almost every document an engineer writes, one will need to define sections, indent paragraphs, bold and or italicize some blocks of text and align objects to effectively display the information they are providing.
+
 #### Headers
 ---------------------
-Markdown offers a very easy syntax for creating headers ranging from size 1-6.
+<p> Markdown offers a very easy syntax for creating headers ranging from size 1-6.
 
 Typing `# Heading 1` produces:
 
@@ -105,12 +115,12 @@ Typing `###### Heading 6` produces:
 
 #### Permalinks
 ---------------------
-Headings can also be used to create a table of context with clickable links to help users navigate your documents. For Example `[Heading 1](#heading-1)` will produce this link [Heading 1](#heading-1) which will take the user back to the header "Heading 1".
+<p> Headings can also be used to create a table of context with clickable links to help users navigate your documents. For Example `[Heading 1](#heading-1)` will produce this link [Heading 1](#heading-1) which will take the user back to the header "Heading 1".
 
 #### Bold and Italics
 ---------------------
 
-As with many documents, you may need to italicize or bold portions of your document.
+<p> As with many documents, you may need to italicize or bold portions of your document.
 
 Italicizing text can be done by placing `*` on each side of the text you want italicized.
 - For example, `*Italicizing this is easy!*` generates *Italicizing this is just as easy!*.
@@ -124,7 +134,7 @@ Bolding and Italicizing text can be done by placing `***` on each side of the te
 #### Line Breaks and Indentions
 ---------------------
 
-You will inevitably find that Markdown does not always add a line break or indention where you are expecting them. <br>
+<p> You will inevitably find that Markdown does not always add a line break or indention where you are expecting them. <br>
 
 To create a line break at any point in your text, add `<br`.
 - For example, `break here <br> please` generates <br>
@@ -133,9 +143,9 @@ break here <br> please
 #### Alignment
 ---------------------
 
-Text alignment is not something that Markdown can do, luckily, it is something that HTML can do, which is natively supported in Markdown.
+<p> Text alignment is not something that Markdown can do, luckily, it is something that HTML can do, which is natively supported in Markdown.
 
-To center a block of text, you can add `<p align="center"></p>` to the text that you would like to center.
+<p> To center a block of text, you can add `<p align="center"></p>` to the text that you would like to center.
 
 - For example, `<p align="center">Center this please.</p>` generates
 
@@ -144,7 +154,7 @@ To center a block of text, you can add `<p align="center"></p>` to the text that
 ### Code
 ---------------------
 
-In engineering, it is not uncommon to include code blocks in your documents.
+<p> In engineering, it is not uncommon to include code blocks in your documents.
 
 To include code portions inline with your text, place \` on each side of your code.
 - For example, \`mkdir new_dir\` generates `mkdir new_dir`.
@@ -178,12 +188,12 @@ generates
 | George B 	| 93 	| Ceramic Engineering 	|
 | Ryan V 	| 32 	| Computer Engineering 	|
 
-Admittedly, this is not very useful for large tables of data. There are plenty of websites that you can visit that will allow you to upload csv files and will generate the necessary Markdown syntax to display your table. I would recommend the site 'https://www.tablesgenerator.com/markdown_tables'.
+<p> Admittedly, this is not very useful for large tables of data. There are plenty of websites that you can visit that will allow you to upload csv files and will generate the necessary Markdown syntax to display your table. I would recommend the site 'https://www.tablesgenerator.com/markdown_tables'.
 
 ### Images
 ---------------------
 
-Images in lab reports are almost always a necessity.
+<p> Images in lab reports are almost always a necessity.
 
 For images hosted on a website, you can use the image address directly.
 - For example,`![Image](https://blog.planview.com/wp-content/uploads/2017/12/cloud-750x400-750x400.jpg "random image")` generates <br>
@@ -198,7 +208,7 @@ For images that are located on your local computer, you can add the image by usi
 ### Equations
 ---------------------
 
-Unfortunately, Markdown does not have a direct method for adding equations or mathematics symbols. Markdown does, however, offer direct HTML support which does allow for adding math symbols.
+<p> Unfortunately, Markdown does not have a direct method for adding equations or mathematics symbols. Markdown does, however, offer direct HTML support which does allow for adding math symbols.
 - For example, `h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x` generates <br>
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
@@ -213,7 +223,7 @@ Below are some other common symbols.
 | `&fnof;` | &fnof; |
 | `&sum;` | &sum;
 
-A comprehensive list of HTML supported symbols can be found here, https://www.toptal.com/designers/htmlarrows/math/. You will want to use the "HTML ENTITY" code when using Markdown.
+<p> A comprehensive list of HTML supported symbols can be found here, https://www.toptal.com/designers/htmlarrows/math/. You will want to use the "HTML ENTITY" code when using Markdown.
 
 ## Links
 
