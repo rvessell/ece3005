@@ -37,7 +37,7 @@ First, you'll need to download the VSCode installer. This can be found here http
 
 - Once downloaded, run the installer. Read the installation agreement and then accept it. <br>
 
-![1](https://github.com/rvessell/ece3005/blob/main/imgs/inst/1.PNG?raw=true "Agreement") <br>
+![1](https://github.com/rvessell/ece3005/blob/main/imgs/inst/1.PNG?raw=true "Agreement"){:height="36px" width="36px"} <br>
 
 - Choose your installation location, in this example, we will use the default. <br>
 
