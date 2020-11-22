@@ -39,7 +39,7 @@ Date: 11/16/2020
 
   The following steps will guide those that are new to VSCode through the installation process. Since VSCode is so lightweight, the installation process is very straight forward.
 
-First, download the VSCode installer. The installation media can be found here https://code.visualstudio.com/download. <br>
+- First, download the VSCode installer. The installation media can be found here https://code.visualstudio.com/download. <br>
 
 - Once downloaded, run the installer. Read the installation agreement and then accept it. <br>
 
@@ -73,8 +73,6 @@ First, download the VSCode installer. The installation media can be found here h
 ---------------------
 
   Several extensions were tested prior to the creation of this document, and at that time, Markdown PDF was determined to be the best choice for creating a Markdown document. For students searching for an alternative to Markdown PDF, VSCode-Pandoc is an appropriate alternative, though, it was found to be more difficult to setup and a bit more bloated than Markdown PDF. Below are the steps for installing Markdown PDF.
-
-Markdown PDF<br>
 
 - First, click on the extensions icon in VSCode. <br>
 
