@@ -80,14 +80,15 @@ Markdown PDF<br>
 - First, click on the extensions icon in VSCode. <br>
 
 <p align="center">
-  <img title="Extensions" src="https://github.com/rvessell/ece3005/blob/main/imgs/ext/1.png?raw=true"
-       style="width:50px;height:342px;">><br>
+  <img title="Extensions" src="https://github.com/rvessell/ece3005/blob/main/imgs/ext/1.png?raw=true"><br>
   Figure 5: Extensions Menu
 </p>
 
 - Next, search for Markdown PDF in the extension search bar and click the green install button. <br>
-
-![2](https://github.com/rvessell/ece3005/blob/main/imgs/ext/2.png?raw=true "Search") <br>
+<p align="center">
+  <img width="860" height="200" title="Extensions" src="https://github.com/rvessell/ece3005/blob/main/imgs/ext/2.png?raw=true"><br>
+  Figure 6: Search Menu
+</p>
 
 The two most useful features of this extension are the Preview and Export to PDF features. <br>
 
@@ -100,14 +101,20 @@ Below are the steps for using the Preview feature in Markdown PDF. <br>
 
 - First press **CTL+SHIFT+P** and type "**Markdown: Open Preview to the Side**" and hit enter. This will open a window for you to the side that will show all of your formatted text as you type it. <br>
 
-![Markdown Preview](https://github.com/rvessell/ece3005/blob/main/imgs/ext/preview.png?raw=true "Markdown Preview")<br>
+<p align="center">
+  <img width="800" height="150" title="Extensions" src="https://github.com/rvessell/ece3005/blob/main/imgs/ext/preview.png?raw=true"><br>
+  Figure 7: Markdown Preview
+</p>
 
 Export to PDF <br>
 Previewing a Markdown document is helpful, but eventually, the document will often need to be exported to a more common format, such as a PDF. <br>
 
 Below are the steps for using the Export to PDF feature in Markdown PDF <br>
 
-![Markdown Export to PDF](https://github.com/rvessell/ece3005/blob/main/imgs/ext/export.png?raw=true "Markdown Export to PDF") <br>
+<p align="center">
+  <img width="800" height="150" title="Extensions" src="https://github.com/rvessell/ece3005/blob/main/imgs/ext/export.png?raw=true"><br>
+  Figure 7: Markdown Export to PDF
+</p>
 
 - First press **CTL+SHIFT+P** and type "**Markdown PDF: Export (pdf)**" and click enter. Once the export is complete, a PDF version of the document will be created in the same directory as the Markdown file. <br>
 
@@ -228,9 +235,9 @@ generates
 <p> Images in lab reports are almost always a necessity. In most cases, when creating a lab report, the images will be hosted locally, though in some cases, images may be hosted on a website that is being referenced. </p>
 
 For images hosted on a website, the image address can be referenced directly.
-- For example,`![Image](https://blog.planview.com/wp-content/uploads/2017/12/cloud-750x400-750x400.jpg "random image")` generates <br>
+- For example,`![Image](https://www.publicdomainpictures.net/pictures/370000/t2/kunstliche-intelligenz-1603866343eG3.jpg "random image")` generates <br>
 
-![Image](https://blog.planview.com/wp-content/uploads/2017/12/cloud-750x400-750x400.jpg "random image")
+![Image](https://www.publicdomainpictures.net/pictures/370000/t2/kunstliche-intelligenz-1603866343eG3.jpg "random image")
 
 For images that are located on the local computer, the image can be added by using it's relative path.
 - For example, `![Image2](/imgs/cover.jpg "cover image")` generates <br>
