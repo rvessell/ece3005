@@ -1,5 +1,5 @@
 # Getting Started with VSCode, Markdown, and LaTex
-Author: Ryan Vessell, 3rd Year Computer Engineering Major
+Author: Ryan Vessell, 3rd Year Computer Engineering Major<br>
 Institution: Georgia Institute of Technology<br>
 Course: ECE 3005 - Fall 2020<br>
 Date: 11/16/2020
