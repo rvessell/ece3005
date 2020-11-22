@@ -21,18 +21,22 @@ Date: 11/16/2020
 9. [Links](#links)<br>
 
 ### Objective
+---------------------
   The objective of this document is to introduce VSCode, and Markdown for Georgia Tech ECE students. By the end of this document, students will be able to install and configure VSCode, format a document using Markdown commands. This document is not meant to be a comprehensive list of all available Markdown commands, instead, it is meant to be a quick start guide for the commonly used commands.
 
 ### Background
+---------------------
   In Fall 2020, ECE 3057 students were asked to complete their lab reports using Markdown. Some of the students in the course had never used Markdown before and were tasked with learning Markdown as well as the content of the course.
    
   This document was created in hopes that it will help future students navigate Markdown and VSCode without having to search through multiple resources to find examples. This document will also act as a cheat sheet when students forget the commands they need
 
 ## Setting Up VSCode
+---------------------
 
   VSCode is quickly becoming one of the most populate IDEs for developers across many popular programming languages. What makes VSCode so enticing is that it is extremely lightweight. Historically, a lightweight IDE meant a distinct lack of features. VSCode combats this notion by supporting open source extentions. The extensions range from broad programming language support to purpose built tools to achieve a singular goal.
 
 ### Installation
+---------------------
 
 <p> The following steps will guide those that are new to VSCode through the installation process. Since VSCode is so lightweight, the installation process is very straight forward. <p>
 
@@ -67,6 +71,7 @@ Date: 11/16/2020
 </p>
 
 ### Extension
+---------------------
 
   Several extensions were tested prior to the creation of this document, and at that time, Markdown PDF was determined to be the best choice for creating a Markdown document. For students searching for an alternative to Markdown PDF, VSCode-Pandoc is an appropriate alternative, though, it was found to be more difficult to setup and a bit more bloated than Markdown PDF. Below are the steps for installing Markdown PDF.
 
