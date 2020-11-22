@@ -87,12 +87,10 @@ Date: 11/16/2020
   Figure 6: Search Menu
 </p>
 
-  The two most useful features of this extension are the Preview and Export to PDF features. <br>
+#### Markdown: Preview
+---------------------
 
-Preview <br>
-<p> Markdown is ironically, a markup language, so when a document is being written, the results are not immediately shown. In applications like Pandoc, the results are only shown once the document has been compiled. This method is time intensive and not condusive to quick document creation. <p>
-   
-  Markdown PDF offers a Preview feature that allows for a realtime view of the formatting of a document. This allows the document creator to view and change formatting without having to compile between iterations. Below are the steps for using the Preview feature in Markdown PDF. <br>
+  Markdown is ironically, a markup language, so when a document is being written, the results are not immediately shown. Traditionally, the results are only shown once the document has been compiled. This method is time intensive and not condusive to quick document creation. Markdown PDF offers a Preview feature that allows for a realtime view of the formatting of a document. This allows the document creator to view and change formatting without having to compile between iterations. Below are the steps for using the Preview feature in Markdown PDF. <br>
 
 - First press **CTL+SHIFT+P** and type "**Markdown: Open Preview to the Side**" and hit enter. This will open a window for you to the side that will show all of your formatted text as you type it. <br>
 
@@ -101,7 +99,9 @@ Preview <br>
   Figure 7: Markdown Preview
 </p>
 
-Export to PDF <br>
+#### Markdown: Export PDF
+---------------------
+
   Previewing a Markdown document is helpful, but eventually, the document will often need to be exported to a more common format, such as a PDF. Below are the steps for using the Export to PDF feature in Markdown PDF <br>
 
 <p align="center">
