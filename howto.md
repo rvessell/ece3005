@@ -164,11 +164,16 @@ Bolding and Italicizing text can be done by placing `***` on each side of the te
 #### Line Breaks and Indentions
 ---------------------
 
-  Like many programming languages, Markdown does not recognize new lines as new lines. To create a line break at any point in your text, add `<br`.
+  Like many programming languages, Markdown does not recognize new lines as new lines and or tabs as indentions. While this is not exactly a Markdown syntax, it is an HTML symbol which is natively supported in Markdown.
 
+To create a line break at any point in your text, add `<br`.
 - For example, `break here <br> please` generates <br>
-
 break here <br> please
+
+To create an indention `&nbsp;` can be used.
+- For example, `&nbsp; This is the beginning of a paragraph. It has more than one sentence.` generates.<br>
+&nbsp; This is the beginning of a paragraph. It has more than one sentence.
+
 
 #### Alignment
 ---------------------
@@ -177,7 +182,7 @@ break here <br> please
 
 <p> To center a block of text, you can add `<p align="center"></p>` to the text that you would like to center. </p>
 
-- For example, `<p align="center">Center this please.</p>` generates
+- For example, `<p align="center">Center this please.</p>` generates 
 
 <p align="center">Center this please.</p>
 
