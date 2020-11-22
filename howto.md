@@ -265,6 +265,10 @@ Below are some other common symbols.
 
 <p> A comprehensive list of HTML supported symbols can be found here, https://www.toptal.com/designers/htmlarrows/math/. "HTML ENTITY" is the syntax version that will be used  when creating an equation in Markdown. </p>
 
+## Conclusion
+
+<p> Markdown and VSCode can be used to quickly create technical documentation. To demonstrate this is the case, this document has been created as a Markdown file. Students are encouraged to view the raw version of the document to see additional examples of the Markdown commands covered in this document. The raw Markdown file can be downloaded and referenced later as a cheat sheet.
+
 ## Links
 
 VSCode Installation Files - https://code.visualstudio.com/download <br>
