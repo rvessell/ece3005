@@ -31,7 +31,6 @@ Date: 11/16/2020
   This document was created in hopes that it will help future students navigate Markdown and VSCode without having to search through multiple resources to find examples. This document will also act as a cheat sheet when students forget the commands they need
 
 ## Setting Up VSCode
----------------------
 
   VSCode is quickly becoming one of the most populate IDEs for developers across many popular programming languages. What makes VSCode so enticing is that it is extremely lightweight. Historically, a lightweight IDE meant a distinct lack of features. VSCode combats this notion by supporting open source extentions. The extensions range from broad programming language support to purpose built tools to achieve a singular goal.
 
