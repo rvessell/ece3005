@@ -164,10 +164,10 @@ Bolding and Italicizing text can be done by placing `***` on each side of the te
 #### Line Breaks and Indentions
 ---------------------
 
-  Like many programming languages, Markdown does not recognize new lines as new lines or tabs as indentions.
+  Like many programming languages, Markdown does not recognize new lines as new lines. To create a line break at any point in your text, add `<br`.
 
-To create a line break at any point in your text, add `<br`.
 - For example, `break here <br> please` generates <br>
+
 break here <br> please
 
 #### Alignment
