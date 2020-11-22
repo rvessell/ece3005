@@ -1,5 +1,7 @@
 # Getting Started with VSCode, Markdown, and LaTex
-Author: Ryan Vessell, 3rd Year Computer Engineering Student
+Author: Ryan Vessell, 3rd Year Computer Engineering Major<br>
+Georgia Institute of Technology<br>
+ECE 3005 - Fall 2020<br>
 Date: 11/16/2020
 
 # Preface
@@ -22,38 +24,44 @@ Date: 11/16/2020
 9. [Links](#links)<br>
 
 ### Objective
-<p> The objective of this document is to introduce VSCode, and Markdown for Georgia Tech ECE students. By the end of this document, you will be able to install and configure VSCode, format a document using Markdown commands. This document is not meant to be a comprehensive list of all available Markdown commands, instead, it is meant to be a quick start guide for the commands that I have found most useful. </p>
+<p> The objective of this document is to introduce VSCode, and Markdown for Georgia Tech ECE students. By the end of this document, students will be able to install and configure VSCode, format a document using Markdown commands. This document is not meant to be a comprehensive list of all available Markdown commands, instead, it is meant to be a quick start guide for the commonly used commands. </p>
 
 ### Background
-<p> When I started ECE3057, I was asked to complete all of my lab documents using Markdown. Having never used Markdown, I was tasked with learning both the content for the class and how to setup my environment and format my documents using Markdown.</p>
-
-<p> I have created this document in hopes that it will help future students navigate Markdown and VSCode without having to search all over to find examples. This document will also as a cheat sheet for when students forget the commands they need.</p>
+<p> In Fall 2020, ECE 3057 students were asked to complete their lab reports using Markdown. Some of the students in the course had never used Markdown before and were tasked with learning Markdown as well as the content of the course. </p>
+   
+<p> This document was created in hopes that it will help future students navigate Markdown and VSCode without having to search through multiple resources to find examples. This document will also act as a cheat sheet when students forget the commands they need </p>
 
 ## Setting Up VSCode
 
+<p> VSCode is quickly becoming one of the most populate IDEs for developers across many popular programming languages. What makes VSCode so enticing is that it is extremely lightweight. Historically, a lightweight IDE meant a distinct lack of features. VSCode combats this notion by supporting open source extentions. The extensions range from broad programming language support to purpose built tools to achieve a singular goal.</p>
+
 ### Installation
 
-First, you'll need to download the VSCode installer. This can be found here https://code.visualstudio.com/download. <br>
+<p> The following steps will guide those that are new to VSCode through the installation process. Since VSCode is so lightweight, the installation process is very straight forward. <p>
+
+First, download the VSCode installer. The installation media can be found here https://code.visualstudio.com/download. <br>
 
 - Once downloaded, run the installer. Read the installation agreement and then accept it. <br>
 
-![1](https://github.com/rvessell/ece3005/blob/main/imgs/inst/1.PNG?raw=true "Agreement"){:height="36px" width="36px"} <br>
+![1](https://github.com/rvessell/ece3005/blob/main/imgs/inst/1.PNG?raw=true "Agreement")<br>
 
-- Choose your installation location, in this example, we will use the default. <br>
+- Choose the desired installation location, in this example, the default locations were used. <br>
 
 ![2](https://github.com/rvessell/ece3005/blob/main/imgs/inst/2.PNG?raw=true "Location") <br>
 
-- Choose the shortcut name, in this example, we will use the default. <br>
+- Choose the shortcut name, in this example, the default names were used. <br>
 
 ![3](https://github.com/rvessell/ece3005/blob/main/imgs/inst/3.PNG?raw=true "Shortcut") <br>
 
-- Review any settings that you have changed and click install.<br>
+- Review any custom settings and click install.<br>
 
 ![4](https://github.com/rvessell/ece3005/blob/main/imgs/inst/4.PNG?raw=true "Install") <br>
 
 ### Extension
 
-After you have installed VSCode, the following extension is highly reocmmended. <br>
+<p>Several extensions were tested prior to the creation of this document, and at that time, Markdown PDF was determined to be the best choice for creating a Markdown document. For students searching for an alternative to Markdown PDF, VSCode-Pandoc is an appropriate alternative, though, it was found to be more difficult to setup and a bit more bloated than Markdown PDF. <p>
+   
+Below are the steps for installing Markdown PDF.
 
 Markdown PDF<br>
 
@@ -65,21 +73,27 @@ Markdown PDF<br>
 
 ![2](https://github.com/rvessell/ece3005/blob/main/imgs/ext/2.png?raw=true "Search") <br>
 
-Once installed, there are two key features you will want to know how to access. <br>
+The two most useful features of this extension are the Preview and Export to PDF features. <br>
 
 Preview <br>
-<p> Since you will want to see what your output looks like before you export to PDF, you will want to open the preview window. </p>
+<p> Markdown is ironically, a markup language, so when a document is being written, the results are not immediately shown. In applications like Pandoc, the results are only shown once the document has been compiled. This method is time intensive and not condusive to quick document creation. <p>
+   
+<p> Markdown PDF offers a Preview feature that allows for a realtime view of the formatting of a document. This allows the document creator to view and change formatting without having to compile between iterations. </p>
+
+Below are the steps for using the Preview feature in Markdown PDF. <br>
 
 - First press **CTL+SHIFT+P** and type "**Markdown: Open Preview to the Side**" and hit enter. This will open a window for you to the side that will show all of your formatted text as you type it. <br>
 
 ![Markdown Preview](https://github.com/rvessell/ece3005/blob/main/imgs/ext/preview.png?raw=true "Markdown Preview")<br>
 
 Export to PDF <br>
-Once you are done writing your document, you will want to export that document, this can be done using Markdown Export to PDF. <br>
+Previewing a Markdown document is helpful, but eventually, the document will often need to be exported to a more common format, such as a PDF. <br>
+
+Below are the steps for using the Export to PDF feature in Markdown PDF <br>
 
 ![Markdown Export to PDF](https://github.com/rvessell/ece3005/blob/main/imgs/ext/export.png?raw=true "Markdown Export to PDF") <br>
 
-- First press **CTL+SHIFT+P** and type "**Markdown PDF: Export (pdf)**" and hit enter. Once the export is complete, you will have a PDF version of your document in the same directory as your Markdown file. <br>
+- First press **CTL+SHIFT+P** and type "**Markdown PDF: Export (pdf)**" and click enter. Once the export is complete, a PDF version of the document will be created in the same directory as the Markdown file. <br>
 
 ## Common Text Formats
 
@@ -115,12 +129,12 @@ Typing `###### Heading 6` produces:
 
 #### Permalinks
 ---------------------
-<p> Headings can also be used to create a table of context with clickable links to help users navigate your documents. For Example `[Heading 1](#heading-1)` will produce this link [Heading 1](#heading-1) which will take the user back to the header "Heading 1". </p>
+<p> Headings can also be used to create a table of context with clickable links to help users navigate documentation. For Example `[Heading 1](#heading-1)` will produce this link [Heading 1](#heading-1) which will take the user back to the header "Heading 1". </p>
 
 #### Bold and Italics
 ---------------------
 
-<p> As with many documents, you may need to italicize or bold portions of your document. </p>
+<p> Italics are used in technical documentation when representing variables, including titles of other texts, and introducing a new term. </p>
 
 Italicizing text can be done by placing `*` on each side of the text you want italicized.
 - For example, `*Italicizing this is easy!*` generates *Italicizing this is just as easy!*.
@@ -134,7 +148,7 @@ Bolding and Italicizing text can be done by placing `***` on each side of the te
 #### Line Breaks and Indentions
 ---------------------
 
-<p> You will inevitably find that Markdown does not always add a line break or indention where you are expecting them. </p>
+<p> Like many programming languages, Markdown does not recognize new lines as new lines or tabs as indentions.</p>
 
 To create a line break at any point in your text, add `<br`.
 - For example, `break here <br> please` generates <br>
@@ -154,12 +168,12 @@ break here <br> please
 ### Code
 ---------------------
 
-<p> In engineering, it is not uncommon to include code blocks in your documents. </p>
+<p> In engineering, it is not uncommon to include code blocks in your documents. Clearly displaying the code can be the difference between a well received document and one that is unusable. </p>
 
-To include code portions inline with your text, place \` on each side of your code.
+To include code portions inline with the text, place \` on each side of the code.
 - For example, \`mkdir new_dir\` generates `mkdir new_dir`.
 
-To include code blocks, usually done with larger sections of code that include line breaks, start each line of the with four spaces 
+To include code blocks, usually done with larger sections of code that include line breaks, start each line of the code with four spaces.
 - For example<br>
 
 for(int i = 0; i < num; ++i){
@@ -190,19 +204,19 @@ generates
 | George B 	| 93 	| Ceramic Engineering 	|
 | Ryan V 	| 32 	| Computer Engineering 	|
 
-<p> Admittedly, this is not very useful for large tables of data. There are plenty of websites that you can visit that will allow you to upload csv files and will generate the necessary Markdown syntax to display your table. I would recommend the site 'https://www.tablesgenerator.com/markdown_tables'. </p>
+<p> Admittedly, this is not very useful for large tables of data. There are plenty of websites that will allow the upload csv files and will generate the necessary Markdown syntax to display a table. A recommended site would be 'https://www.tablesgenerator.com/markdown_tables'. </p>
 
 ### Images
 ---------------------
 
-<p> Images in lab reports are almost always a necessity. </p>
+<p> Images in lab reports are almost always a necessity. In most cases, when creating a lab report, the images will be hosted locally, though in some cases, images may be hosted on a website that is being referenced. </p>
 
-For images hosted on a website, you can use the image address directly.
+For images hosted on a website, the image address can be referenced directly.
 - For example,`![Image](https://blog.planview.com/wp-content/uploads/2017/12/cloud-750x400-750x400.jpg "random image")` generates <br>
 
 ![Image](https://blog.planview.com/wp-content/uploads/2017/12/cloud-750x400-750x400.jpg "random image")
 
-For images that are located on your local computer, you can add the image by using it's relative path.
+For images that are located on the local computer, the image can be added by using it's relative path.
 - For example, `![Image2](/imgs/cover.jpg "cover image")` generates <br>
 
 ![Image2](./imgs/cover.jpg "cover image")
@@ -210,7 +224,7 @@ For images that are located on your local computer, you can add the image by usi
 ### Equations
 ---------------------
 
-<p> Unfortunately, Markdown does not have a direct method for adding equations or mathematics symbols. Markdown does, however, offer direct HTML support which does allow for adding math symbols. </p>
+<p> Unfortunately, Markdown does not have a direct method for adding equations or mathematics symbols. Markdown does, however, offer direct HTML support which does allow for adding math symbols. It is worth noting that in formal documentation that is intended to be published, this formatting is less likely to be widely accepted. For a more professional display of equations, LaTex is recommended.</p>
 
 - For example, `h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x` generates <br>
 
@@ -226,7 +240,7 @@ Below are some other common symbols.
 | `&fnof;` | &fnof; |
 | `&sum;` | &sum;
 
-<p> A comprehensive list of HTML supported symbols can be found here, https://www.toptal.com/designers/htmlarrows/math/. You will want to use the "HTML ENTITY" code when using Markdown. </p>
+<p> A comprehensive list of HTML supported symbols can be found here, https://www.toptal.com/designers/htmlarrows/math/. "HTML ENTITY" is the syntax version that will be used  when creating an equation in Markdown. </p>
 
 ## Links
 
