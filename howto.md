@@ -39,7 +39,7 @@ Date: 11/16/2020
 
   The following steps will guide those that are new to VSCode through the installation process. Since VSCode is so lightweight, the installation process is very straight forward.
 
-  First, download the VSCode installer. The installation media can be found here https://code.visualstudio.com/download. <br>
+First, download the VSCode installer. The installation media can be found here https://code.visualstudio.com/download. <br>
 
 - Once downloaded, run the installer. Read the installation agreement and then accept it. <br>
 
