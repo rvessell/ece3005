@@ -44,25 +44,29 @@ First, download the VSCode installer. The installation media can be found here h
 - Once downloaded, run the installer. Read the installation agreement and then accept it. <br>
 
 <p align="center">
-  <img width="460" height="300" title="Agreement" src="https://github.com/rvessell/ece3005/blob/main/imgs/inst/1.PNG?raw=true">
+  <img width="460" height="300" title="Agreement" src="https://github.com/rvessell/ece3005/blob/main/imgs/inst/1.PNG?raw=true"><br>
+  Figure 1: Agreement Window
 </p>
 
 - Choose the desired installation location, in this example, the default locations were used. <br>
 
 <p align="center">
-  <img width="460" height="300" title="Location" src="https://github.com/rvessell/ece3005/blob/main/imgs/inst/2.PNG?raw=true">
+  <img width="460" height="300" title="Location" src="https://github.com/rvessell/ece3005/blob/main/imgs/inst/2.PNG?raw=true"><br>
+  Figure 2: Location Window
 </p>
 
 - Choose the shortcut name, in this example, the default names were used. <br>
 
 <p align="center">
-  <img width="460" height="300" title="Shortcut" alt="Shortcut" src="https://github.com/rvessell/ece3005/blob/main/imgs/inst/3.PNG?raw=true">
+  <img width="460" height="300" title="Shortcut" alt="Shortcut" src="https://github.com/rvessell/ece3005/blob/main/imgs/inst/3.PNG?raw=true"><br>
+  Figure 3: Shortcut Name Window
 </p>
 
 - Review any custom settings and click install.<br>
 
 <p align="center">
-  <img width="460" height="300" title="Install" src="https://github.com/rvessell/ece3005/blob/main/imgs/inst/4.PNG?raw=true">
+  <img width="460" height="300" title="Install" src="https://github.com/rvessell/ece3005/blob/main/imgs/inst/4.PNG?raw=true"><br>
+  Figure 4: Confirmation Window
 </p>
 
 ### Extension
@@ -75,7 +79,11 @@ Markdown PDF<br>
 
 - First, click on the extensions icon in VSCode. <br>
 
-![1](https://github.com/rvessell/ece3005/blob/main/imgs/ext/1.png?raw=true#center "Extensions") <br>
+<p align="center">
+  <img title="Extensions" src="https://github.com/rvessell/ece3005/blob/main/imgs/ext/1.png?raw=true"
+       style="width:50px;height:342px;">><br>
+  Figure 5: Extensions Menu
+</p>
 
 - Next, search for Markdown PDF in the extension search bar and click the green install button. <br>
 
