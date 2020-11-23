@@ -197,7 +197,7 @@ To include code portions inline with the text, place \` on each side of the code
 To include code blocks, usually done with larger sections of code that include line breaks, start each line of the code with four spaces.
 - For example<br>
 
-for(int i = 0; i < num; ++i){
+for(int i = 0; i < num; ++i){<br>
    printf("i: %d");<br>
 }<br>
 generates
