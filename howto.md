@@ -272,3 +272,10 @@ Below are some other common symbols.
 VSCode Installation Files - https://code.visualstudio.com/download <br>
 Table Generator - https://www.tablesgenerator.com/markdown_tables <br>
 HTML Math Symbols - https://www.toptal.com/designers/htmlarrows/math/ <br>
+
+
+| Input | Output |
+|- |- |
+|`*Italicizing this is easy!*` | *Italicizing this is easy!* |
+|`**Bolding this is just as easy!**` | **Bolding this is just as easy!** |
+| `***Bold and Italicized for the win!***` | ***Bold and Italicized for the win!*** |
