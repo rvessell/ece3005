@@ -203,7 +203,7 @@ for(int i = 0; i < num; ++i){<br>
 generates
 
     for(int i = 0; i < num; ++i){
-        printf("i: %d");<br>
+        printf("i: %d");
     }
 
 ### Tables
